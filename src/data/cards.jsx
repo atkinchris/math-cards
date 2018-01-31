@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default [{
   id: '0001',
   cardholder: 'Mr CF Gauss',
@@ -21,12 +23,24 @@ export default [{
 }, {
   id: '0005',
   cardholder: 'Mr C Babbage',
-  text: 'The first 4 digits of the largest number that can be made using the digits 1 to 6 to complete this calculation:',
+  text: (
+    <span>
+      Only the odd digits, in ascending order, of the answer to
+      <br />
+      2<sup>7</sup> * 5<sup>4</sup> - 3<sup>8</sup>
+    </span>
+  ),
   colour: '#DC2F2F',
 }, {
   id: '0006',
   cardholder: 'Mr J Fourier',
-  text: 'In the given order, the median, mean, mode and range of this set of numbers: 6, 12, 3, 6, 9, 11, 7, 6, 12',
+  text: (
+    <span>
+      In the given order; the median, mean, mode & range of this set of numbers
+      <br />
+      6, 12, 3, 6, 9, 11, 7, 6, 12
+    </span>
+  ),
   colour: '#DC2F2F',
 }, {
   id: '0007',
