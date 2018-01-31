@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "ie >= 11"]
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "inline-react-svg"
+  ]
+}
