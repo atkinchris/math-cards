@@ -2,9 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import CardLogo from './Logo.svg'
+import Background from './Background.svg'
 
 const Card = ({ id, cardholder, text, colour }) => (
   <div className="card" style={{ backgroundColor: colour }}>
+    <div className="card-background">
+      <Background />
+    </div>
     <div className="card-logo">
       <CardLogo />
     </div>
