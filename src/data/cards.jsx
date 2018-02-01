@@ -60,6 +60,6 @@ export default [{
 }, {
   id: '0010',
   cardholder: 'Mr D Bernoulli',
-  text: 'This special 5-digit PIN is the total of all of the other 9 PINs combined',
+  text: 'Use the ideas that you have been exploring to create a PIN puzzle for your own 4-digit number',
   colour: '#4A4A4A',
 }]
