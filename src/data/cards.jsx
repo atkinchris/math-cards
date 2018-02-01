@@ -8,7 +8,7 @@ export default [{
 }, {
   id: '0002',
   cardholder: 'Mr I Newton',
-  text: 'Two different 2-digit square numbers. The sum of the square numbers is a prime number. The two middle digits are the same.',
+  text: 'Two different 2-digit square numbers. Sum of the two square numbers is a prime number. Sum of all four digits is a prime number. Two middle digits are the same.',
   colour: '#128494',
 }, {
   id: '0003',
